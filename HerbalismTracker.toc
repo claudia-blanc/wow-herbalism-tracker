@@ -1,0 +1,11 @@
+## Interface: 11507
+## Title: Herbalism Tracker
+## Notes: Track herb gathering locations on the world map
+## Author: LaosLos
+## Version: 1.0
+## SavedVariables: HerbalismTrackerDB
+
+Core\Storage.lua
+Data\Classic.lua
+Core\MapDisplay.lua
+HerbalismTracker.lua

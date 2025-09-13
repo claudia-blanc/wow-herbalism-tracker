@@ -1,0 +1,44 @@
+# WoW Addon .gitignore
+
+# Saved Variables (user data)
+*.lua.bak
+SavedVariables/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Archive files
+*.zip
+*.rar
+*.7z
+
+# Don't track compiled or minified versions
+*.min.lua
+
+# Personal notes
+notes.txt
+todo.txt
+
+# Temporary ignored files
+CHANGELOG.md
+README1.md
