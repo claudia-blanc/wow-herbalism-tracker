@@ -21,7 +21,7 @@ git add .
 
 The staging area is where you prepare a snapshot of your changes before committing them to the project history. This command stages all files in the current directory and its subdirectories for the next commit. The `.` indicates that you want to add all files.
 
-However, you can ignore certain files by creating a `.gitignore` file in your project root and listing the files or directories you want Git to ignore.
+However, you can ignore certain files by creating a `.gitignore` file in your project root and listing the files or directories you want Git to ignore. Ignoring files is useful for excluding temporary files, build artifacts, or sensitive information that you don't want to include in your repository. So any changes to these ignored files will not be tracked by Git.
 
 For example, to ignore temporary files and logs, your `.gitignore` file might look like this:
 ```
